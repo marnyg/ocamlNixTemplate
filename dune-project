@@ -19,7 +19,7 @@
  (name myPro)
  (synopsis "A short synopsis")
  (description "A longer description")
- (depends core ocaml dune (alcotest :with-test))
+ (depends ppx_inline_alcotest core ocaml dune (alcotest :with-test))
  (tags
   (topics "to describe" your project)))
 

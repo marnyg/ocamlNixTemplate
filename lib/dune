@@ -1,2 +1,5 @@
 (library
+ (libraries alcotest core)
+ (inline_tests)
+ (preprocess (pps ppx_inline_alcotest))
  (name myPro))
