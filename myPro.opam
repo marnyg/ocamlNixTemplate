@@ -10,7 +10,7 @@ homepage: "https://github.com/username/reponame"
 doc: "https://url/to/documentation"
 bug-reports: "https://github.com/username/reponame/issues"
 depends: [
-  "ppx_inline_alcotest"
+  "ppx_inline_test"
   "core"
   "ocaml"
   "dune" {>= "3.11"}

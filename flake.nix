@@ -26,10 +26,14 @@
 
       buildInputs = [
         ocamlPackages.core
+        ocamlPackages.alcotest
+        ocamlPackages.ppx_inline_test
       ];
 
       strictDeps = true;
 
+
+    useDuneConfig = true;  # Use this to read dependencies from .opam file
       doCheck = true;
       checkTarget = "test";
 
