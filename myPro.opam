@@ -13,7 +13,7 @@ depends: [
   "ppx_inline_test"
   "core"
   "ocaml"
-  "dune" {>= "3.11"}
+  "dune" {>= "3.0"}
   "alcotest" {with-test}
   "odoc" {with-doc}
 ]
